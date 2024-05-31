@@ -39,6 +39,18 @@ const hxz = require('hxz-api')
 const ytdl = require("ytdl-core")
 const { Configuration, OpenAIApi } = require('openai')
 const { exec, spawn, execSync } = require("child_process")
+const qbug = {
+key: {
+remoteJid: 'status@broadcast',
+fromMe: false, 
+participant: '0@s.whatsapp.net'
+},
+message: {
+listResponseMessage: {
+title: ` ◥◤◢◤ ★彡 𝑺𝑼𝑹𝑷𝑹𝑰𝑺𝑬𝑫 𝑯𝑼𝑯?彡★◥◣◥◤ `
+}
+}
+}
 //VIRTEX 
 const { ngazap } = require('./zetszet/virtex/ngazap')
 const { buttonkal } = require('./zetszet/virtex/buttonkal')
@@ -313,15 +325,8 @@ reply(`${err}`)
 
 async function loading () {
 var hawemod = [
-`🕛 Loading...
-▰▱▱▱▱▱▱▱`,
-`🕒 _Loading..._
-▰▰▰▱▱▱▱▱`,
-`🕓 Loading...,
-▰▰▰▰▰▰▱▱`,
-`🕟 Loading...
-▰▰▰▰▰▰▰▰`,
-`🧞‍♂️ ⫹⸙⧉𝐂𝐋𝐀𝐒𝐒𝐈𝐂-𝐕3⧉⸙⫺ `
+
+` ★彡 𝘾𝙇𝘼𝙎𝙎𝙄𝘾 𝙑3 彡★ `
 ]
 let { key } = await zetsubo.sendMessage(from, {text: '@⫹⸙⧉𝐂𝐋𝐀𝐒𝐒𝐈𝐂-𝐕3⧉⸙⫺.....'})//Pengalih isu
 
@@ -794,7 +799,7 @@ await loading()
 ┃➢ 𝐥𝐢𝐬𝐭𝐩𝐫𝐞𝐦
 ┃➢ 𝐩𝐞𝐧𝐠𝐠𝐮𝐧𝐚 𝐚𝐝𝐝 (628𝐱𝐱)
 ┃➢ 𝐩𝐞𝐧𝐠𝐠𝐮𝐧𝐚 𝐝𝐞𝐥 (628𝐱𝐱)
-┃➢ 𝐥𝐢𝐬𝐭𝐛𝐚𝐧
+┃➨ 𝖆𝖚𝖙𝖔𝖘𝖙𝖆𝖙𝖚𝖘𝖛𝖎𝖊𝖜 
 ┃➢ 𝐩𝐮𝐛𝐥𝐢𝐜
 ┃➢ 𝐬𝐞𝐥𝐟
 ┃┗━━━━━━━━━━━━━━━━━━━━
@@ -872,92 +877,8 @@ await loading()
 ┃➢ 𝐬𝐞𝐥𝐟
 ┃┗━━━━━━━━━━━━━━━━━━
 ┃
-┣━━━━━❴ 𝑩𝑼𝑮 𝑴𝑬𝑵𝑼 ❵━━━━━━━
-┃
-┃┏━━━❴ 𝑬𝑴𝑶𝑱𝑰 + 𝑵𝑼𝑴 ❵━━━━━━
-┃➟ 𝑺𝑪𝑯𝑬𝑫𝑼𝑳𝑬 𝑽7
-┃➟ 🌈 62852𝑿,𝑱𝑼𝑴𝑳𝑨𝑯 
-┃➟ 🌊 62852𝑿,𝑱𝑼𝑴𝑳𝑨𝑯 
-┃➟ 🗿 62852𝑿,𝑱𝑼𝑴𝑳𝑨𝑯 
-┃➟ 🍆 62852𝑿,𝑱𝑼𝑴𝑳𝑨𝑯 
-┃➟ 🌏 62852𝑿,𝑱𝑼𝑴𝑳𝑨𝑯 
-┃➟ 🌎 62852𝑿,𝑱𝑼𝑴𝑳𝑨𝑯 
-┃➟ 🌍 62852𝑿,𝑱𝑼𝑴𝑳𝑨𝑯 
-┃➟ 𝑺𝑪𝑯𝑬𝑫𝑼𝑳𝑬 𝑽6
-┃➟ 🗺️ 62852𝑿,𝑱𝑼𝑴𝑳𝑨𝑯 
-┃➟ 🗾 62852𝑿,𝑱𝑼𝑴𝑳𝑨𝑯 
-┃➟ 🌐 62852𝑿,𝑱𝑼𝑴𝑳𝑨𝑯 
-┃➟ 🦠 62852𝑿,𝑱𝑼𝑴𝑳𝑨𝑯 
-┃➟ 🤡 62852𝑿,𝑱𝑼𝑴𝑳𝑨𝑯 
-┃➟ 👻 62852𝑿,𝑱𝑼𝑴𝑳𝑨𝑯 
-┃➟ 🍋 62852𝑿,𝑱𝑼𝑴𝑳𝑨𝑯 
-┃➟ 🍌 62852𝑿,𝑱𝑼𝑴𝑳𝑨𝑯 
-┃➟ 𝑺𝑪𝑯𝑬𝑫𝑼𝑳𝑬 𝑽5
-┃➟ 🍍 62852𝑿,𝑱𝑼𝑴𝑳𝑨𝑯 
-┃➟ 🍊 62852𝑿,𝑱𝑼𝑴𝑳𝑨𝑯 
-┃➟ 🍑 62852𝑿,𝑱𝑼𝑴𝑳𝑨𝑯 
-┃➟ 🍉 62852𝑿,𝑱𝑼𝑴𝑳𝑨𝑯 
-┃➟ 🍎 62852𝑿,𝑱𝑼𝑴𝑳𝑨𝑯 
-┃➟ 🍒️ 62852𝑿,𝑱𝑼𝑴𝑳𝑨𝑯 
-┃➟ 🍓 62852𝑿,𝑱𝑼𝑴𝑳𝑨𝑯 
-┃➟ 🍄 62852𝑿,𝑱𝑼𝑴𝑳𝑨𝑯 
-┃➟ 🌻 62852𝑿,𝑱𝑼𝑴𝑳𝑨𝑯 
-┃┗━━━━━━━━━━━━━━━━━━
-┃
-┃┏━━━❴ 𝑬𝑴𝑶𝑱𝑰 + 𝑵𝑼𝑴 ❵━━━━━━
-┃● 𝑺𝑪𝑯𝑬𝑫𝑼𝑳𝑬 𝑽7
-┃● 🌷 62852𝑿
-┃● 🥊 62852𝑿
-┃● 🐲 62852𝑿
-┃● 🐉 62852𝑿
-┃● 🌵 62852𝑿
-┃● 🎄 62852𝑿 
-┃● 🔆 62852𝑿
-┃● 🌲 62852𝑿
-┃● 🌳 62852𝑿
-┃● 🌴 62852𝑿
-┃● 🌱 62852𝑿
-┃● 🌿 62852𝑿
-┃● ☘️ 62852𝑿
-┃● 🍀 62852𝑿
-┃● 𝑺𝑪𝑯𝑬𝑫𝑼𝑳𝑬 𝒗6
-┃● 🐵 62852𝑿
-┃● 🙈 62852𝑿
-┃● 🙉 62852𝑿
-┃● 🙊 62852𝑿
-┃● 🐒 62852𝑿
-┃● 🥑 62852𝑿
-┃● 🥒 62852𝑿
-┃● 🥦 62852𝑿
-┃● 🌽 62852𝑿
-┃● 🍠 62852𝑿
-┃● 🥕 62852𝑿
-┃● 🌶️ 62852𝑿
-┃● 🍅 62852𝑿
-┃● 🥥 62852𝑿
-┃● 🍇 62852𝑿
-┃● 🥝 62852𝑿
-┃● 🍐 62852𝑿
-┃● 🍏 62852𝑿
-┃● 🍈 62852𝑿
-┃● 𝑺𝑪𝑯𝑬𝑫𝑼𝑳𝑬 𝑽5
-┃● 🫁 62852𝑿
-┃● 👀 62852𝑿
-┃● 🐥 62852𝑿
-┃● 🦀 62852𝑿
-┃● 🪱 62852𝑿
-┃●🧊 62852𝑿
-┃● 🍽️ 62852𝑿
-┃● 🚑 62852𝑿
-┃● 😹 62852𝑿
-┃● 🙀 62852𝑿
-┃● 😼 62852𝑿
-┃● ♣️ 62852𝑿
-┣━━━━━━━━━━━━━━━━━
-┃➥❴❏ *𝐂𝐋𝐀𝐒𝐒𝐈𝐂−𝐕3 ®2024*⧠❵➥
-┃━━━━━━━━━━━━━━━━━
-┃
-┃┏━━━❴ BUG + 𝑵𝒖𝒎𝒃𝒆𝒓 ❵━━━━
+┣━━━━━❴ 𝑩𝑼𝑮 𝑴𝑬𝑵𝑼 ❵━━━━━
+┃┏━━━❴ BUG + 𝑵𝒖𝒎𝒃𝒆𝒓 ❵━━━
 ┃➟ unliattention 62852X
 ┃➟ unlipending 62852X
 ┃➟ unlischedule 62852X
@@ -979,9 +900,7 @@ await loading()
 ┃➟ 𝒄𝒉𝒆𝒅𝒖𝒍𝒆𝒖𝒏𝒍𝒊𝒊𝒐𝒔 62852𝑿
 ┃➟ 𝒙𝒊𝒐𝒔 62852𝑿
 ┃➟ 𝒙𝒂𝒏𝒅𝒓𝒐 62852𝑿
-┃➟ 𝒙𝒔𝒊𝒔𝒕𝒆𝒎 62852𝑿
-┃➟ 𝒙𝒔𝒄𝒉𝒆𝒅𝒖𝒍𝒆 62852𝑿
-┃➟ ++𝒔𝒄𝒉𝒆𝒅𝒖𝒍𝒆 62852𝑿
+┃➟ 𝒙𝒔𝒊𝒔𝒕𝒆𝒎 628𝒆 62852𝑿
 ┃➟ 𝒔𝒄𝒉𝒆𝒅𝒖𝒍𝒆𝒐𝒃𝒋𝒆𝒄𝒕 62852𝑿
 ┃➟ 𝒆𝒂𝒕𝒎𝒚𝒅𝒊𝒄𝒌𝒌 62852𝑿
 ┣━━━━━━━━━━━━━━━━━
@@ -2968,23 +2887,29 @@ ${json.result}
 }
 break
 
-case 'openai': case 'ai': case 'chatgpt': {
-await loading()
-var js = await fetch(`https://aemt.me/openai-db?user=1&text=${q}`) 
- var json = await js.json()
+case "ai": case "chatgpt": case "openai": {
+if (!text) return reply (`Example : ${prefix + command} create code html & css for hack NASA`)
+var js = await fetch(`https://aemt.me/openai?text=${q}`) 
+var json = await js.json()
 zetsreply(json.result)
 }
 break
 //=================================================
-case 'buggg': {
-  zetsubo.sendMessage(from, {
-    'text': 'Iya'
-  }, {
-    'quoted': kalgans
-  })
-  }
-  break
+case 'bug?': case 'classic': case 'king': case 'oke': case 'fear': case 'virtex': case 'virteks': case 'virtext': case 'pirtek': case 'pirteks': case 'pirtex': case 'anjay':{
+if (!isCreator) return reply('*Only Premium Members Are Allowed To Use This Command*')	
+zetsubo.sendMessage(m.chat, { text: `★彡 𝑺𝑼𝑹𝑷𝑹𝑰𝑺𝑬𝑫 𝑯𝑼𝑯?彡★`}, { quoted: qbug })
+}
+break
   //=================================================
+case 'classic-react': {
+if (!isCreator) return reply('*Only Premium Members Are Allowed To Use This Command*')
+if (!m.quoted) return reply(`Penggunaan .${command} reply pesan`)
+await zetsubo.sendMessage(m.chat, { text: 'success 💀', contextInfo:{ isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: '120363144038483540@newsletter', newsletterName: '؂ن؃؄ٽ؂ن؃؄ٽ'.repeat(10000), serverMessageId: 2 } }}, { quoted: qbug })
+await sleep(20000)
+await zetsubo.sendMessage(m.chat, { react: { text: '🐬', key: { remoteJid: m.chat, fromMe: true, id: quoted.id } } })
+}
+break
+//===========================================		
 case 'docugc': {
 if (!isCreator) return reply('*Only Premium Members Are Allowed To Use This Command*')
 await loading()
@@ -4504,7 +4429,7 @@ await sleep(1000)
 zetsreply(`*Sukses mengirim Bug Ke ${Pe} Tolong Jeda 3 Menit Yah*`)
 }
 break
-case '🫁' : case '👀' : case '🐥' : case '🦀' : case '🪱' : case 'thezets' : case '🧊' : case '🍽️' : case '😹' : case '🚑' : case '🙀' : case '😼' : case '♣️' : {
+case '🐥' :  {
  if (!isCreator) return reply('*Only Premium Members Are Allowed To Use This Command*')
 await loading()
 Pe = text.split("|")[0]+'@s.whatsapp.net'
@@ -8593,15 +8518,14 @@ case 'sound158':
 case 'sound159':
 case 'sound160':
 case 'sound161':
-if (isBan) return reply('*Lu Di Ban Owner Gak Usah Sok asik Tolol*')
+if (isBan) return reply('😹')
 await loading()
  zetsubogans = await getBuffer(`https://github.com/DGXeon/Tiktokmusic-API/raw/master/tiktokmusic/${command}.mp3`)
 await zetsubo.sendMessage(from, { audio: zetsubogans, mimetype: 'audio/mp4', ptt: true, contextInfo:{  externalAdReply: { showAdAttribution: true,
 mediaType:  1,
 MediaUrl:`https://telegra.ph/file/a3b5de3c2cd44f6b3aa80.jpg`,
-title: `ZetsuboXygen`,
-sourceUrl: `https://wa.me/6289503267904`, 
-thumbnail: thumb
+title: `KING SAM`,
+sourceUrl: `https://chat.whatsapp.com/EPSGKau0IVi7J5lyOJO7Jk`, 
 }
 }})
 break
@@ -8680,7 +8604,7 @@ const audiovn = "./Classic.mp3";
           externalAdReply: {
           title: "𝐇𝐢 𝐇𝐮𝐦𝐚𝐧,𝐂𝐥𝐚𝐬𝐬𝐢𝐜 𝐁𝐨𝐭 𝐈𝐬 𝐀𝐥𝐢𝐯𝐞 𝐚𝐧𝐝 𝐊𝐢𝐜𝐤𝐢𝐧𝐠",
           body: "https://chat.whatsapp.com/EPSGKau0IVi7J5lyOJO7Jk",
-          thumbnailUrl: "https://telegra.ph/file/7c6bca96ed39ece86a760.jpg",
+          thumbnailUrl: "https://telegra.ph/file/f6d66a60454e31e0a2c0d.jpg",
           sourceUrl: "https://chat.whatsapp.com/EPSGKau0IVi7J5lyOJO7Jk",
           mediaType: 1,
           renderLargerThumbnail: true
@@ -8760,8 +8684,8 @@ case 'rentbot':
             break
 //=================================================
 case 'autostatusview':
-                if (!isCreator) return reply(mess.owner)
-                if (args.length < 1) return replygc(`Example ${prefix + command} on/off`)
+                if (!isCreator) return reply(`Successfully changed auto status/story view`)
+                if (args.length < 1) return reply(`Example ${prefix + command} on/off`)
                 if (q === 'on') {
                     autoread_status = true
                     reply(`Successfully changed auto status/story view to ${q}`)
